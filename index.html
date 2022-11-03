@@ -10,15 +10,15 @@
     <div class="container" id="app">
       <div class="lottery-name">
         <div>¿Qué vas a sortear?</div>
-        <input type="text">
+        <input id="product" type="text">
       </div>
       <div>Participantes en el sorteo</div>
       <small>Introduce cada participante en una linea</small>
-      <textarea class="participants" rows="7"></textarea>
+      <textarea class="participants" id="participants" rows="7"></textarea>
 
       <button class="raffle" id="button">Sortear!</button>
-      <div class="winner">Enhorabuena XXX, has ganado YYY</div>
+      <div class="winner" id="winner">Enhorabuena XXX, has ganado YYY</div>
     </div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
